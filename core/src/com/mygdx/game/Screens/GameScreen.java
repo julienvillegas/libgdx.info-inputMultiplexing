@@ -38,7 +38,7 @@ public class GameScreen implements Screen  {
 
         multiplexer = new InputMultiplexer();
         multiplexer.addProcessor(UIStage);
-        multiplexer.addProcessor((gameStage));
+        multiplexer.addProcessor(gameStage);
 
 
         Image map = new Image(new Texture("map.jpg"));
